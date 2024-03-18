@@ -1,0 +1,175 @@
+/* .content{
+    height: 50vh;
+    width: 90%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no no-repeat;
+background-image: url("https://media.istockphoto.com/id/1199283538/photo/planet-uranus.webp?b=1&s=170667a&w=0&k=20&c=ew2Rd76vJu43I0dADB66dcTv4mdEJLIWQuH3785bZw0=");
+} */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(7, 5, 13);
+   
+}
+
+.nav {
+    height: 12vh;
+    padding: 2px;
+    width: 100%;
+    background-color: rgb(190, 172, 172);
+    display: flex;
+    align-items: center;
+    border: 4px black solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.nav img {
+    height: 8vh;
+    width: 7%;
+    margin: 2%;
+}
+
+h1 {
+    font-size: 3vw;
+    margin: auto;
+    background: linear-gradient(to right, blue, rgb(85, 85, 132), blue, rgb(85, 85, 132), blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cont {
+   
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+video {
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    color: white;
+}
+.h{
+              
+    position: absolute;
+
+}
+h2{
+    /* color: rgb(36, 168, 201);              */
+   text-align: center;
+    font-size:5vw;
+    background: linear-gradient(to right,  rgb(36, 168, 201),white, rgb(106, 178, 226), rgb(113, 113, 232),  rgb(36, 168, 201));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h5{
+    color: white;           
+    
+    font-size:1.5vw;
+    font-family: monospace;
+            
+}
+.content{
+min-height: max-content;
+width: 90%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border: 2px white solid;
+justify-content: center;
+align-items: center;
+/* opacity: 0.4; */
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+/* background-image: url("https://images.unsplash.com/photo-1565033817241-00be28ad9119?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXJhbnVzfGVufDB8fDB8fHww"); */
+}
+h6{
+font-size: 3vw;
+color: rgb(229, 134, 17);
+text-align: center;
+
+}
+
+.inline{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+}
+
+p{
+font-size: 1.5vw;
+color:white;
+width: 50%;
+text-align:justify;
+font-family: sans-serif;
+}
+img{
+width: 30%;
+box-shadow: 3px 2px 2px 3px;
+}
+.parra,.foot{
+color: aqua;
+font-size: 1.5vw;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+h4{
+    color: wheat;
+}
+iframe{
+    align-self: center;
+}
+textarea,input{
+
+width: 40%;
+align-self: center;
+}
+button{
+    max-width: fit-content;
+    align-self: center;
+    color: red;
+    font-size: 2vw;
+    font-weight: 700;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: yellow;
+   
+}
+.end{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(60, 57, 57);
+    display: flex;
+ 
+align-items: center;
+justify-content: space-around;
+}
+.end h2{
+    font-size: 3vh;
+    color: aliceblue;
+}
+.end p{
+    color: black;
+    font-size: 1vw;
+}
+.end img{
+    height: 2vh;
+    width: 3vw;
+    border-radius: 50%;
+}
