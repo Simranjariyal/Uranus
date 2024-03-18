@@ -218,6 +218,12 @@ justify-content: space-around;
     animation-duration: 2s;
   
 }
+#loader h1:nth-child(4){
+ 
+    animation-delay: 4.5s;
+    animation-duration: 2s;
+  
+}
 @keyframes anim{
     0%{
         opacity: 0;
