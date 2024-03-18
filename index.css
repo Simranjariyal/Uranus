@@ -116,7 +116,7 @@ width: 50%;
 text-align:justify;
 font-family: sans-serif;
 }
-img{
+.inline img{
 width: 30%;
 box-shadow: 3px 2px 2px 3px;
 }
@@ -160,12 +160,9 @@ button:hover{
 align-items: center;
 justify-content: space-around;
 }
-.end h2{
-    font-size: 3vh;
-    color: aliceblue;
-}
+
 .end p{
-    color: black;
+ color: azure;
     font-size: 1vw;
 }
 .end img{
